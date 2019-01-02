@@ -1,0 +1,30 @@
+#pageConsole {
+    width: calc(100vw - 20px);
+    height: 50vh;
+    position: fixed;
+    bottom: calc(-50vh + 10px);
+    margin: 0;
+    left: 10px;
+    background-color: #ff6f69;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    transition: all 1s;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+#pageConsole.active {
+    bottom: -2px;
+}
+
+.string { color: purple; }
+.number { color: white; }
+.boolean { color: blue; }
+.null { color: red; }
+.key { color: black; }
+
+html, body {
+    margin: 0;
+    background-color: #262626;
+    min-height: 100vh;
+}
